@@ -271,7 +271,7 @@ export default function ProdutosListar() {
                                                             <TableCell align="center">Ações</TableCell>
                                                         </TableRow>
                                                     </TableHead>
-                                                    <TableBody>
+                                                    <TableBody>a
                                                         {produtos.map((produto) => (
                                                             <TableRow key={produto.idProduto} sx={{ '&:last-child td, &:last-child th': { border: 0 } }}>
                                                                 <TableCell align="center">{produto.codigo}</TableCell>
