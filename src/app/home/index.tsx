@@ -12,21 +12,16 @@ export default function Home() {
 
         <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
             <Grid container spacing={3}>
-                <Grid item sm={12}>
-                    <Paper sx={{
-                        p: 2,
-                        display: 'flex',
-                        flexDirection: 'column',
-                        alignItems: 'center',
-                        margin: 'auto',
-                        width: '80%'
-                    }}>
-                        <Typography variant="h1" component="div" gutterBottom>
-                            Teste Frontend Linear
-                        </Typography>
-                        <Button variant="contained" href="/dashboard">Ir para Dashboard</Button>
-                    </Paper>
+                <Grid item xs={12} sm={12} md={12}>
+                    <Typography align="center" variant="h1" component="div" gutterBottom>
+                        Teste Frontend Linear
+                    </Typography>
                 </Grid>
+                <Grid md={4}></Grid>
+                <Grid direction="column" item xs={12} sm={12} md={4} >
+                    <Button fullWidth variant="contained" href="/dashboard">Ir para Dashboard</Button>
+                </Grid>
+                <Grid md={4}></Grid>
             </Grid>
         </Container>
 

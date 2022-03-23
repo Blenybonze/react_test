@@ -62,7 +62,6 @@ const Drawer = styled(MuiDrawer, { shouldForwardProp: (prop) => prop !== 'open' 
     }),
 );
 
-
 export default function Menu({ title }:{title:string}) {
     const [open, setOpen] = React.useState(true);
     const toggleDrawer = () => {

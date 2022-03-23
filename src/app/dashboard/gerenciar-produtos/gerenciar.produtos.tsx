@@ -176,7 +176,7 @@ export default function ProdutosListar() {
                 }}>
                     <Toolbar />
                     <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
-                        <Grid container spacing={3}>
+                        <Grid container spacing={12}>
                             <Grid item sm={12} xs={12}>
                                 <Paper sx={{ p: 2, display: 'flex', flexDirection: 'column' }}>
                                     <h3>Cadastrar Produto</h3>
@@ -375,7 +375,6 @@ export default function ProdutosListar() {
             </Box >
         </ThemeProvider >
     );
-
 }
 
 interface Cor {

@@ -20,6 +20,12 @@ export const mainListItems = (
             </ListItemIcon>
             <ListItemText primary="Dashboard" />
         </ListItemButton>
+        <ListItemButton component={Link} to="/produtos/estoque">
+            <ListItemIcon>
+                <InventoryIcon />
+            </ListItemIcon>
+            <ListItemText primary="Estoque" />
+        </ListItemButton>
         <ListItemButton component={Link} to="/produtos/gerenciar">
             <ListItemIcon>
                 <ShoppingCartIcon />
